@@ -1,1 +1,2 @@
-# aeonsharp.github.io
+# Aeon Sharp
+Audio Engineer & Composer
