@@ -1,2 +1,1 @@
-# Aeon Sharp
-Audio Engineer & Composer
+aeon sharp
