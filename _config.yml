@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Aeon Sharp"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/AeonSharpLogo-Red_250px.png"
   bio              : "Composer, Audio Engineer, and Songwriter"
   # location         : "California"
   email            : "aeonsharp@proton.me"
