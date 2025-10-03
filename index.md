@@ -1,4 +1,5 @@
 ---
+#TODO: change to home after some blog posts are up
 layout: archive
 author_profile: true
 #title: "Composer, Audio Engineer, and Songwriter"
