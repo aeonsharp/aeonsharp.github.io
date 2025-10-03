@@ -18,7 +18,7 @@ permalink: /background/
 .flex-child:last-child {
     margin-right: 0px
 } 
-.ul.no-bullets {
+ul.no-bullets {
     list-style: none;
     padding: 0;
     margin: 0;
