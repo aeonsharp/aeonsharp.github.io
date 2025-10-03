@@ -17,7 +17,12 @@ permalink: /background/
 }  
 .flex-child:last-child {
     margin-right: 0px
-}  
+} 
+.ul.no-bullets {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 </style>
 {% assign author = page.author | default: page.authors[0] | default: site.author %}
 {% assign author = site.data.authors[author] | default: author %}
@@ -37,7 +42,7 @@ This all led to the development of my hybrid style; a proficiency in classical a
   <div class="flex-child">
     <h2>Explore my portfolio:</h2>
     <div class="author__urls-wrapper">
-      <ul style="list-style:none;">
+      <ul class="no-bullets">
         {% if author.links %}
           {% for link in author.links %}
             {% if link.link_category contains 'portfolio' %}
@@ -54,7 +59,7 @@ This all led to the development of my hybrid style; a proficiency in classical a
   <div class="flex-child">
     <h2>Connect on social media:</h2>
     <div class="author__urls-wrapper">
-      <ul style="list-style:none;">
+      <ul class="no-bullets">
         {% if author.links %}
           {% for link in author.links %}
             {% if link.link_category contains 'social' %}
@@ -70,7 +75,7 @@ This all led to the development of my hybrid style; a proficiency in classical a
   <div class="flex-child">
     <h2>Get in touch:</h2>
     <div class="author__urls-wrapper">
-      <ul style="list-style:none;">
+      <ul class="no-bullets">
         <li><a href="mailto:{{ author.email }}" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i><span class="label">Email</span></a></li>
       </ul>
     </div>
