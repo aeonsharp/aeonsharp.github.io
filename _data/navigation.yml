@@ -8,11 +8,11 @@ main:
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
-  - title: "Music for Games & Media"
-    url: /music-for-games-media/
-  - title: "Songs"
-    url: /songs/
+  #- title: "Music for Games & Media"
+  #  url: /music-for-games-media/
+  #- title: "Songs"
+  #  url: /songs/
   - title: "Background"
-    url: /about/
-  - title: "Contact"
-    url: /contact/
+    url: /background/
+  #- title: "Contact"
+  #  url: /contact/
