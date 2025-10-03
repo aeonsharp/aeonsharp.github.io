@@ -37,7 +37,7 @@ This all led to the development of my hybrid style; a proficiency in classical a
   <div class="flex-child">
     <h2>Explore my portfolio:</h2>
     <div class="author__urls-wrapper">
-      <ul>
+      <ul style="list-style:none;">
         {% if author.links %}
           {% for link in author.links %}
             {% if link.link_category contains 'portfolio' %}
@@ -54,7 +54,7 @@ This all led to the development of my hybrid style; a proficiency in classical a
   <div class="flex-child">
     <h2>Connect on social media:</h2>
     <div class="author__urls-wrapper">
-      <ul>
+      <ul style="list-style:none;">
         {% if author.links %}
           {% for link in author.links %}
             {% if link.link_category contains 'social' %}
@@ -70,7 +70,7 @@ This all led to the development of my hybrid style; a proficiency in classical a
   <div class="flex-child">
     <h2>Get in touch:</h2>
     <div class="author__urls-wrapper">
-      <ul>
+      <ul style="list-style:none;">
         <li><a href="mailto:{{ author.email }}" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i><span class="label">Email</span></a></li>
       </ul>
     </div>
