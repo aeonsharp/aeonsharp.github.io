@@ -10,6 +10,9 @@
 <loc>http://localhost:4000/music-for-games-media/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/songs/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/scratch/</loc>
 </url>
 </urlset>

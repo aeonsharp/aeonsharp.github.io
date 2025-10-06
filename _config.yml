@@ -143,6 +143,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "BandCamp"
+      icon: "fas fa-fw fa-compact-disc"
+      url: "https://aeonsharp.bandcamp.com"
     - label: "SoundCloud"
       icon: "fab fa-fw fa-soundcloud"
       url: "https://soundcloud.com/aeonsharp"
@@ -326,3 +329,7 @@ defaults:
       comments: # true
       share: true
       related: true
+
+collections:
+  releases:
+    output: false
