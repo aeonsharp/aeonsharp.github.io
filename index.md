@@ -25,10 +25,11 @@ author_profile: true
   }
   /* for some reason $type-size-n doesn't work in here, should be 6 and 8 but just copying those numbers from _variables.scss */
   .release-title {
-    font-size: 0.75em 
+    font-weight: bold;
+    font-size: 0.75em;
   }
   .release-excerpt {
-    font-size: 0.625em
+    font-size: 0.625em;
   }
 </style>
 <h1 class="archive__title">Latest Releases</h1>
