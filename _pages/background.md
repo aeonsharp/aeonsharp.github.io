@@ -32,7 +32,7 @@ ul.no-bullets {
 
 Aeon Sharp is the pseudonym of Nicholas Duque, audio engineer and vocalist based in central California.
 
-My sound emerged from a unique path: As a teenager, I taught myself music theory and composition, scoring neo-classical chamber music that I began uploading to SoundCloud and BandCamp in 2010. A love for songs, video games and digital worlds led me to Vocaloid, with my personal projects over the following years often incorporating synthesized vocals alongside industrial synths, analog synths, and my own live vocals. Also a lover of experimentation, I enjoy playing with samples of things like dial-up modems, movie quotes, and other unique electronic sounds.
+My sound emerged from a unique path: As a teenager, I taught myself music theory and composition, scoring neo-classical chamber music that I began uploading to SoundCloud and BandCamp in 2010. A love for songs, video games, and digital worlds led me to Vocaloid, with my personal projects over the following years often incorporating synthesized vocals alongside industrial synths, analog synths, and my own live vocals. Also a lover of experimentation, I enjoy playing with samples of things like dial-up modems, movie quotes, and other unique electronic sounds.
 
 I would later go on to refine my skills formally, receiving a Bachelor’s degree in Music Technology in 2019. My training and subsequent professional experience included live sound and recording engineering, Operatic and choral vocals, and hands-on experience in scoring for animation, which easily melded with my natural curiosity and love for experimental forms of expression.
 
