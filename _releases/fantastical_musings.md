@@ -10,7 +10,7 @@ links:
   - platform: "Unity Asset Store"
     url: "https://assetstore.unity.com/publishers/123492"
 subtitle: "Epic & Heartfelt Music for Adventures, RPGs, and more!"
-short_description: "This 10-track suite transports listeners to a vibrant fantasy world, blending strings, piano, percussion, and various world instruments and synths. Designed for media licensing."
+short_description: "This 10-track suite transports listeners to a vibrant fantasy world, blending strings, piano, percussion, various world instruments, and synths. Designed for media licensing."
 release_date: "1760079600"
 category: "media"
 ---
