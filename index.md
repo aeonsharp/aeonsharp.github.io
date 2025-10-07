@@ -9,36 +9,44 @@ author_profile: true
 #excerpt: "Welcome to Aeon Sharp's music!"
 ---
 <style>
-.flex-container {
-    display: flex;
-}
-.flex-child {
-    flex: 1;
-    margin-right: 4px;
-    margin-left: 4px
-}
-.flex-child:first-child {
-    margin-left: 0px
-}  
-.flex-child:last-child {
-    margin-right: 0px
-}  
+  .flex-container {
+      display: flex;
+  }
+  .flex-child {
+      flex: 1;
+      margin-right: 4px;
+      margin-left: 4px
+  }
+  .flex-child:first-child {
+      margin-left: 0px
+  }  
+  .flex-child:last-child {
+      margin-right: 0px
+  }
+  ```scss
+  .release-title {
+    font-size: $type-size-6;
+  }
 </style>
 <h1 class="archive__title">Latest Releases</h1>
 <div class="flex-container">
   <div class="flex-child">
     <h2 class="archive__subtitle">Games & Media</h2>
-    <div style="font-size: 0.75em;">Fantastical Musings: Epic & Heartfelt Music for Adventures, RPGs, and more!</div>
+    <div class="release-title">Fantastical Musings: Epic & Heartfelt Music for Adventures, RPGs, and more!</div>
     {% include video id="ixsEWpCZGGQ" provider="youtube" %}
   </div>
   <div class="flex-child">
     <h2 class="archive__subtitle">Songs</h2>
     <!--<iframe width="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2042368397&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/aeonsharp" title="Aeon Sharp" target="_blank" style="color: #cccccc; text-decoration: none;">Aeon Sharp</a> · <a href="https://soundcloud.com/aeonsharp/morbid-curiosity" title="Morbid Curiosity (with VOCALOID SORA, Ken, and Allen)" target="_blank" style="color: #cccccc; text-decoration: none;">Morbid Curiosity (with VOCALOID SORA, Ken, and Allen)</a></div>-->
-    <div style="font-size: 0.75em;">Lady Gaga - How Bad Do U Want Me (Acoustic Cover with SynthV)</div>
+    <div class="release-title">Lady Gaga - How Bad Do U Want Me (Acoustic Cover with SynthV)</div>
     {% include video id="EOylLzTwoq4" provider="youtube" %}
   </div>
 </div>
 <br>
+
+# Collaboration
+
+I would love discuss how we can bring even more life to your project through music. Feel free to contact me via [email](mailto:{{ site.author.email }}) or any of the social media platforms in the sidebar.
 
 # About
 
