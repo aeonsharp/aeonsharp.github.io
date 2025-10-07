@@ -23,7 +23,7 @@ author_profile: true
   .flex-child:last-child {
       margin-right: 0px
   }
-  /* for some reason $type-size-n doesn't work in here, should be 6 and 8 but just copying those numbers from _variables.scss */
+  /* for some reason $type-size-n doesn't work in here, should be 6 and 8 so we're just copying those magic numbers from _variables.scss */
   .release-title {
     font-weight: bold;
     font-size: 0.75em;
