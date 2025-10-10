@@ -26,6 +26,10 @@ author_profile: true
 ### Available here:
 <ul>
 {% for link in latest.links %}
-  <li><a href = "{{ link.url }}">{{ link.platform }}</a></li>
+  {% if link.url %}
+    <li><a href = "{{ link.url }}">{{ link.platform }}</a></li>
+  {% else %}
+    <li>{{ link.platform }}</li>
+  {% endif %}
 {% endfor %}
 </ul>
