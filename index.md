@@ -52,7 +52,7 @@ author_profile: true
 
 # Collaboration
 
-I would love discuss how we can bring even more life to your project through music. Feel free to contact me via [email](mailto:{{ site.author.email }}) or any of the social media platforms in the footer.
+I would love discuss how we can bring even more life to your project through music-- or even just to say hi and chat! Feel free to contact me via [email](mailto:{{ site.author.email }}) or any of the social media platforms in the footer.
 
 # About
 
