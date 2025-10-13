@@ -21,3 +21,37 @@
   </td>
 </tr>
 </table>
+
+
+-----------------------------------------------
+{% comment %}
+{% assign latest = -1 %}
+{% for release in site.releases %}
+  {% if release.category == 'media' %}
+    {% if latest == -1 or latest.release_date < release.release_date %}
+      {% assign latest = release %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+## {{ latest.title }} ({{ latest.release_date | date: "%Y" }})
+{% include video id=latest.video_id provider=latest.video_provider %}
+{{ latest.short_description }}
+
+{% if latest.release_date < site.time %}
+  {% assign release_text = "Released" %}
+{% else %}
+  {% assign release_text = "Planned Release" %}
+{% endif %}
+{{ release_text }}: {{ latest.release_date | date: "%Y-%m-%d" }}
+
+### Available here:
+<ul>
+{% for link in latest.links %}
+  {% if link.url %}
+    <li><a href = "{{ link.url }}">{{ link.platform }}</a></li>
+  {% else %}
+    <li>{{ link.platform }}</li>
+  {% endif %}
+{% endfor %}
+</ul>
+{% endcomment %}

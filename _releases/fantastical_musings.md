@@ -3,10 +3,9 @@ title: "Fantastical Musings"
 video_id: 'ixsEWpCZGGQ'
 video_provider: 'youtube'
 links:
-  - platform: "BandCamp (for personal listening)"
+  - platform: "BandCamp (for personal listening and custom licensing)"
     url: "https://aeonsharp.bandcamp.com/"
-  - platform: "Unity Asset Store (for plug & play WAV files)"
-    url: "https://assetstore.unity.com/publishers/123492"
+  - platform: "Unity Asset Store (for plug & play WAV files) (COMING SOON!)"
   - platform: "itch.io (TBD)"
   - platform: "Fab Marketplace (TBD)"
 subtitle: "Epic & Heartfelt Music for Adventures, RPGs, and more!"

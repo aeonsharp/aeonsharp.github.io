@@ -16,11 +16,7 @@ author_profile: true
 {% include video id=latest.video_id provider=latest.video_provider %}
 {{ latest.short_description }}
 
-{% if latest.release_date < {{ "today" | date }} %}
-  {% assign release_text = "Released" %}
-{% else %}
-  {% assign release_text = "Planned Release" %}
-{% endif %}
+{% assign release_text = "Released" %}
 {{ release_text }}: {{ latest.release_date | date: "%Y-%m-%d" }}
 
 ### Available here:
