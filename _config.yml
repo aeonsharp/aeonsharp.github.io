@@ -117,7 +117,7 @@ author:
   avatar           : "/assets/images/AeonSharpLogo-Red_250px.png"
   bio              : "Composer, Audio Engineer, and Songwriter"
   # location         : "California"
-  email            : "aeonsharp@proton.me"
+  email            : "aeonsharpmusic@gmail.com"
   links:
     - label: "BandCamp"
       icon: "fas fa-fw fa-compact-disc"
@@ -160,7 +160,7 @@ footer:
       url: "https://instagram.com/aeonsharp"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:aeonsharp@proton.me"
+      url: "mailto:aeonsharpmusic@gmail.com"
   since: "2010"
 
 
